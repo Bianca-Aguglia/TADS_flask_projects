@@ -1,0 +1,8 @@
+# MacOS files
+.DS_Store
+
+# scratchpads
+**/*scratchpad*
+
+# jupyter notebook checkpoints
+**/.ipynb_checkpoints

@@ -1,0 +1,38 @@
+:root {
+    --purple-dark: #572c43;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0.25rem;
+    background-color: var(--purple-dark);
+    color: lightgray;
+    width: 99vw;
+    height: 50px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header ul li {
+    padding: 0;
+} */
+
+.img_rc {
+    border-radius: 50%;
+}

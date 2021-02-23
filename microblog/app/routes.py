@@ -20,3 +20,7 @@ def index():
 def login():
     form = LoginForm()
     return render_template('login.html', form=form)
+
+@app.route('/<string:username>')
+def user_page(username):
+    return f'Hi, {username}'

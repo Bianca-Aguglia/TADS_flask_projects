@@ -4,5 +4,6 @@
 # scratchpads
 **/*scratchpad*
 
-# jupyter notebook checkpoints
+# jupyter notebook checkpoints and cache files
 **/.ipynb_checkpoints
+**/__pycache__
